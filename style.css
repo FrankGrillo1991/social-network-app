@@ -101,3 +101,8 @@
     margin: 0 10px;
 }
 
+.header__right .material-icons:hover {
+    cursor: pointer;
+}
+
+/* sidebar */
