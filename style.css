@@ -263,3 +263,7 @@ body {
     margin-right: 10px;
 }
 
+.post__topInfo h3 {
+    font-size: medium;
+}
+
