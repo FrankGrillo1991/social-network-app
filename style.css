@@ -194,3 +194,10 @@ body {
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
 }
 
+.messageSender__top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
