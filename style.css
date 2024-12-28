@@ -252,3 +252,10 @@ body {
     width: 100%;
 }
 
+.post__top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
