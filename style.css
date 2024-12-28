@@ -221,5 +221,13 @@ body {
     justify-content: space-evenly;
 }
 
+.messageSender__option {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
 
     
