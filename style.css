@@ -96,3 +96,8 @@
     align-items: center;
 }
 
+.header__right .material-icons {
+    color: gray;
+    margin: 0 10px;
+}
+
