@@ -234,3 +234,9 @@ body {
     margin-left: 10px;
 }
    
+.messageSender__option:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
+
