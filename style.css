@@ -201,3 +201,8 @@ body {
     padding: 15px;
 }
 
+.messageSender__top form {
+    flex: 1;
+    display: flex;
+}
+
