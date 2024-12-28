@@ -23,3 +23,9 @@
     box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
 
+.header__left {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
