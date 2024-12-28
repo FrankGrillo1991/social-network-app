@@ -216,5 +216,10 @@ body {
     background-color: #eff2f5;
 }
 
+.messageSender__bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
     
