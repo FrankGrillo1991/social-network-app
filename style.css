@@ -91,3 +91,8 @@
     margin-left: 10px;
 }
 
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
