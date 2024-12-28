@@ -145,3 +145,8 @@
     transform: scale(1.07);
 }
 
+.story__avatar {
+    margin: 10px;
+    color: blue;
+}
+
