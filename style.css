@@ -492,7 +492,13 @@ body {
 }
 
 .post__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
     margin-right: 10px;
+    display: block;
+    background: #f4f4f4;
 }
 
 .post__topInfo h3 {
@@ -576,10 +582,8 @@ body {
         margin-top: 8px;
     }
     .user__avatar {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        object-fit: cover;
+        width: 32px;
+        height: 32px;
     }
     .post {
         margin: 8px 0;
@@ -663,10 +667,8 @@ body {
         height: 18px;
     }
     .user__avatar {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        object-fit: cover;
+        width: 18px;
+        height: 18px;
     }
     .header__right {
         margin-top: 3px;
