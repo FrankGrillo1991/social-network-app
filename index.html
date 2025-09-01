@@ -110,7 +110,25 @@
  </div>
 
  <div class="feed">
-    <div class="storyReel">
+    <div class="storyReel" tabindex="0" aria-label="Stories carousel (scrollable)">
+</div>
+<script>
+// Keyboard accessibility for .storyReel horizontal scroll
+document.addEventListener('DOMContentLoaded', function() {
+    var storyReel = document.querySelector('.storyReel');
+    if (storyReel) {
+        storyReel.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight') {
+                storyReel.scrollBy({ left: 80, behavior: 'smooth' });
+                e.preventDefault();
+            } else if (e.key === 'ArrowLeft') {
+                storyReel.scrollBy({ left: -80, behavior: 'smooth' });
+                e.preventDefault();
+            }
+        });
+    }
+});
+</script>
         <!-- story starts -->
     <div class="story story-bg-1">
            <img class="user__avatar story__avatar"
