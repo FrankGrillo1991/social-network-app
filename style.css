@@ -297,24 +297,35 @@
 .header__info {
     display: flex;
     align-items: center;
+    gap: 6px;
+    padding: 0 4px;
 }
 
 .header__info h4 {
-    margin-left: 10px;
+    margin-left: 6px;
 }
 
 .header__right {
     display: flex;
     align-items: center;
+    gap: 8px;
+    height: 100%;
+    padding: 0 8px;
 }
 
 .header__right .material-icons {
     color: gray;
-    margin: 0 10px;
+    margin: 0 4px;
+    vertical-align: middle;
+    font-size: 26px;
+    cursor: pointer;
+    transition: background 0.13s, border-radius 0.13s;
+    padding: 4px;
+    border-radius: 50%;
 }
 
 .header__right .material-icons:hover {
-    cursor: pointer;
+    background: #f1f2f5;
 }
 
 /* sidebar */
