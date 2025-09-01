@@ -229,9 +229,10 @@
         border-radius: 50%;
         display: block;
         margin: 16px auto 0 auto;
-        border: 2px solid #fff;
-        box-shadow: 0 1.5px 6px -2px rgba(46,129,244,0.06);
+        border: 2.5px solid #fff;
+        box-shadow: 0 2px 8px -2px rgba(46,129,244,0.08);
         object-fit: cover;
+        background: #f4f4f4;
     }
     .story__name {
         display: block;
@@ -604,19 +605,7 @@ body {
         margin-right: 0;
         border-radius: 8px;
     }
-    .story img {
-        width: 28px;
-        height: 28px;
-        margin: 8px auto 0 auto;
-    }
-    .story h4 {
-        font-size: 10px;
-        left: 8px;
-        bottom: 8px;
-        position: absolute;
-        width: 80%;
-        padding: 0 2px;
-    }
+    /* .story img rule removed to avoid conflict with .story__avatar */
     .header__left img {
         height: 28px;
     }
