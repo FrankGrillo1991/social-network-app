@@ -105,21 +105,24 @@
     }
     .feed {
         flex: 1;
-        padding: 32px 32px 32px 0;
+        padding: 24px 16px 24px 0;
         align-items: flex-start;
         margin-top: 0;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px -2px rgba(0,0,0,0.06);
+        min-height: 400px;
     }
     .storyReel {
         overflow-x: auto;
-        gap: 28px;
-        padding: 24px 0 32px 0;
-        background: linear-gradient(90deg, #f7f8fa 0%, #f1f2f5 100%);
-        border-radius: 16px;
-        box-shadow: 0 2px 12px -6px rgba(0,0,0,0.07);
-        /*scrollbar-color: #b0b0b0 #f1f2f5;
-        scrollbar-width: thin;*/
-    display: flex;
-    flex-direction: row;
+        gap: 16px;
+        padding: 12px 0 18px 0;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 1.5px 6px -2px rgba(0,0,0,0.05);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
     }
     .storyReel::-webkit-scrollbar {
         height: 10px;
@@ -195,51 +198,56 @@
         justify-content: flex-end;
         gap: 12px;
     }
-    .header__left img {
-        height: 48px;
+    .story {
+        width: 100px;
+        min-width: 100px;
+        height: 160px;
+        min-height: 160px;
+        border-radius: 8px;
+        box-shadow: 0 1.5px 6px -2px rgba(0,0,0,0.07);
+        margin: 0;
+        background-color: #fff;
+        border: 1px solid #e4e6eb;
+        cursor: pointer;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+        transition: transform 0.13s, box-shadow 0.13s, border-color 0.13s;
     }
-    .user__avatar {
-        width: 48px;
-        height: 48px;
+    .story:hover {
+        transform: scale(1.04);
+        box-shadow: 0 4px 16px -4px rgba(46,129,244,0.10);
+        border-color: #2e81f4;
+        z-index: 2;
     }
-}
-/* Story background images for inline CSS removal */
-.story-bg-1 {
-    background-image: url('https://images.unsplash.com/photo-1527082395-e939b847da0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
-}
-.story-bg-2 {
-    background-image: url('https://cellularnews.com/wp-content/uploads/2020/04/Delete-photo-337x600.jpg');
-}
-.story-bg-3 {
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBHC2s4NFdzXEsVzvBPGjkrSePQa-8XFuNtQ&usqp=CAU');
-}
-
-/* Icon color classes for inline CSS removal */
-.icon-red {
-    color: red !important;
-}
-.icon-green {
-    color: green !important;
-}
-.icon-orange {
-    color: orange !important;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header__left img {
-    height: 40px;
-}
-
-/* Avatar */
-.user__avatar {
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    object-fit: cover;
+    .story__avatar {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        margin-top: 14px;
+        border: 2px solid #fff;
+        box-shadow: 0 1.5px 6px -2px rgba(46,129,244,0.06);
+        object-fit: cover;
+    }
+    .story__name {
+        position: absolute;
+        left: 10px;
+        bottom: 10px;
+        font-size: 15px;
+        color: #fff;
+        width: 80%;
+        padding: 2px 6px;
+        text-shadow: 0 1.5px 6px rgba(0,0,0,0.13);
+        font-weight: 500;
+        letter-spacing: 0.2px;
+        background: rgba(0,0,0,0.18);
+        border-radius: 4px;
+        text-align: left;
+        pointer-events: none;
+    }
 }
 
 .header__option .material-icons {
