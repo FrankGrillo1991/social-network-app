@@ -570,7 +570,10 @@ body {
         margin-top: 10px;
         width: 100%;
         padding: 0 4vw;
-        align-items: stretch;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .main__body {
         flex-direction: column;
