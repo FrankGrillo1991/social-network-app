@@ -23,7 +23,7 @@
         overflow-x: auto;
         gap: 18px;
         padding: 18px 0 24px 0;
-        scrollbar-width: thin;
+    /* scrollbar-width removed for compatibility */
     }
     .story {
         width: 120px;
