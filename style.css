@@ -1,3 +1,24 @@
+/* Story background images for inline CSS removal */
+.story-bg-1 {
+    background-image: url('https://images.unsplash.com/photo-1527082395-e939b847da0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+}
+.story-bg-2 {
+    background-image: url('https://cellularnews.com/wp-content/uploads/2020/04/Delete-photo-337x600.jpg');
+}
+.story-bg-3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBHC2s4NFdzXEsVzvBPGjkrSePQa-8XFuNtQ&usqp=CAU');
+}
+
+/* Icon color classes for inline CSS removal */
+.icon-red {
+    color: red !important;
+}
+.icon-green {
+    color: green !important;
+}
+.icon-orange {
+    color: orange !important;
+}
 * {
     margin: 0;
     padding: 0;
