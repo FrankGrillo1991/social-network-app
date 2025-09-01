@@ -576,8 +576,10 @@ body {
         margin-top: 8px;
     }
     .user__avatar {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
     }
     .post {
         margin: 8px 0;
@@ -661,8 +663,10 @@ body {
         height: 18px;
     }
     .user__avatar {
-        width: 18px;
-        height: 18px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
     }
     .header__right {
         margin-top: 3px;
