@@ -482,6 +482,12 @@ body {
 
 .post__image img {
     width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 12px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px -2px rgba(0,0,0,0.10);
 }
 
 .post__top {
