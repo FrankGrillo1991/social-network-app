@@ -342,18 +342,18 @@ body {
     }
 }
 
-@media (min-width: 320px) {
-    .storyReel {
-        width: 100%;
-        overflow-x: scroll;
+@media screen and (max-width: 320px) {
+
+    .story {
+        width: 80px;
+        height: 140px;
     }
-}
 
-@media (min-width: 768px) and (max-width: 1440px) {
-    /* CSS To Target 767 px width of screen */
+    .story h4 {
+        font-size: 8px;
+    }
 
-    .feed {
-        width: 50%;
-        padding: 10px 50px;
+    .story img {
+        width: 30px;
     }
 }
