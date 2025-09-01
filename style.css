@@ -68,18 +68,18 @@
     .main__body {
         flex-direction: row;
         align-items: flex-start;
-        max-width: 1200px;
+        max-width: 900px;
         margin: 0 auto;
     }
     .sidebar {
         display: block;
-        min-width: 220px;
-        max-width: 260px;
-        padding: 30px 10px 0 0;
+        min-width: 180px;
+        max-width: 210px;
+        padding: 24px 8px 0 0;
     }
     .feed {
         flex: 1;
-        padding: 40px 60px 40px 0;
+        padding: 32px 32px 32px 0;
         align-items: flex-start;
         margin-top: 0;
     }
