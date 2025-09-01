@@ -340,9 +340,81 @@ body {
     .story img {
         width: 40px;
     }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 5px;
+    }
+    .header__left {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .header__right {
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    .user__avatar {
+        width: 32px;
+        height: 32px;
+    }
+    .main__body {
+        flex-direction: column;
+    }
+    .post {
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+    .messageSender__top form input {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .messageSender__option h3 {
+        font-size: 14px;
+    }
+    .sidebarRow h4 {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .sidebarRow .material-icons {
+        font-size: large;
+    }
+    .post__topInfo h3, .post__topInfo p {
+        font-size: 14px;
+    }
+    .post__bottom {
+        padding: 10px 10px;
+    }
+    .post__options {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .storyReel {
+        padding: 5px 0;
+        gap: 5px;
+    }
+    .story {
+        width: 80px;
+        height: 140px;
+    }
+    .header__left img {
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 320px) {
+
+.feed {
+    padding: 0;
+    margin: 0;
+}
+
+.storyReel {
+    padding: 10px 0;
+    display: flex;
+    overflow-x: scroll;
+}
 
     .story {
         width: 80px;
@@ -355,5 +427,40 @@ body {
 
     .story img {
         width: 30px;
+    }
+    .header {
+        padding: 5px 2px;
+    }
+    .header__left img {
+        height: 22px;
+    }
+    .user__avatar {
+        width: 24px;
+        height: 24px;
+    }
+    .header__right {
+        margin-top: 5px;
+    }
+}
+
+/* General improvements for mobile readability */
+@media (max-width: 480px) {
+    body, input, button, h4, p {
+        font-size: 15px;
+    }
+    .header__option {
+        padding: 0 10px;
+    }
+    .post__bottom {
+        padding: 8px 5px;
+    }
+    .post__options {
+        font-size: 13px;
+    }
+    .messageSender__option h3 {
+        font-size: 12px;
+    }
+    .sidebarRow h4 {
+        font-size: 12px;
     }
 }
